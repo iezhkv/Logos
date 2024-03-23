@@ -1,0 +1,82 @@
+:root {
+    --primary-color: rgb(110, 66, 12);
+
+    --secondary-color-one: rgb(15, 61, 29);
+    --secondary-color-two: rgb(204, 85, 0);
+    --secondary-color-three:rgb(0, 105, 148);
+
+    --neutral-color-light: rgb(172, 172, 172);
+    --neutral-color-dark: rgb(51, 51, 51);
+
+    --accent-color-one: rgb(255, 193, 7);
+    --accent-color-two: rgb(199, 177, 216);
+
+
+    --primary-font: 'Cormorant Garamond', Arial, sans-serif;
+
+    --secondary-font: 'Open Sans', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+
+
+}
+
+body {
+    /* background-color: var(--neutral-color-light); */
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(110, 66, 12);
+    font-size: 90px;
+
+}
+
+
+h1 {
+    
+    font-size: 1em;
+
+
+  }
+
+p {
+    font-size: 0.4em;
+    margin-top: -0.6em;
+
+
+
+    color: rgb(15, 61, 29);
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 40%;
+    margin-bottom: -0.4em;
+
+}
+
+.i {
+    color: var(--primary-color);
+    font-size: 1.6em;
+
+ }
+
