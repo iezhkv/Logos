@@ -1,20 +1,6 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
     <defs>
 
-      <linearGradient id="colorCycleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="red">
-                <animate attributeName="stop-color" values="red; blue; green; red; violet; indigo; blue; green; yellow; orange; red" dur="20s" repeatCount="indefinite"/>
-            </stop>
-            <stop offset="50%" stop-color="blue">
-                <animate attributeName="stop-color" values="blue; green; red; violet; indigo; blue; green; yellow; orange; red; blue" dur="20s" repeatCount="indefinite"/>
-            </stop>
-            <stop offset="100%" stop-color="green">
-                <animate attributeName="stop-color" values="green; red; violet; indigo; blue; green; yellow; orange; red; blue; green" dur="20s" repeatCount="indefinite"/>
-            </stop>
-            <!-- Animate the gradient's position to create movement -->
-            <animate attributeName="x1" from="-100%" to="100%" dur="20s" repeatCount="indefinite"/>
-            <animate attributeName="x2" from="0%" to="200%" dur="20s" repeatCount="indefinite"/>
-        </linearGradient>
         <style>
 
             #logo {
