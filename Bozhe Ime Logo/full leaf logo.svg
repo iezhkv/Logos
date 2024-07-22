@@ -3,7 +3,7 @@
         <style>
 
             #logo {
-                fill: black;
+                fill: rgb(110, 66, 12);
             }
 
             #main {
@@ -11,7 +11,7 @@
             }
 
             #leafs {
-                <!-- display: none; -->
+                fill: rgb(15, 61, 29);
             }
             #left-leaf {
                 <!-- display: none; -->
